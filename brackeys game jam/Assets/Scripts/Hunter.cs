@@ -89,7 +89,7 @@ public class Hunter : MonoBehaviour
             movement = new Vector2(0f, 0f);
 
         // Click the mouse button to shoot
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && normalState)
             HunterShooting();
 
         if (Input.GetKeyDown("l") && normalState)
