@@ -50,7 +50,7 @@ public class Hunter : MonoBehaviour
         MouseFace();
 
         // Make the hunter move
-        HunterMovement();
+        //HunterMovement();
 
         if (specialMoveState)
         {
@@ -72,7 +72,7 @@ public class Hunter : MonoBehaviour
 
     private void FixedUpdate()
     {
-
+        HunterMovement();
     }
 
     void GetInput()
@@ -112,7 +112,7 @@ public class Hunter : MonoBehaviour
     // Code which updates the movement of the hunter
     private void HunterMovement()
     {
-        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.deltaTime * movement.normalized);
+        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.fixedDeltaTime * movement.normalized);
     }
 
     // Code which makes the hunter shoot normal bullets
