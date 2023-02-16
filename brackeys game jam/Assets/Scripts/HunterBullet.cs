@@ -36,5 +36,16 @@ public class HunterBullet : MonoBehaviour
         bulletRb.MovePosition((Vector2)this.transform.position + bulletMovementDir.normalized * bulletSpeed * Time.fixedDeltaTime);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "enemy")
+        {
+            collision.gameObject.GetComponent<enemyai>().health -= 50;
+        }
+        if (collision.tag == "enemy1")
+        {
+            collision.gameObject.GetComponent<enemyshoot>().health -= 50;
+        }
+    }
 
 }

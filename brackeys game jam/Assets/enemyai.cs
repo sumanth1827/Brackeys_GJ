@@ -11,6 +11,9 @@ public class enemyai : MonoBehaviour
     private bool checkrd, attackrd;
     private Vector2 move, dir;
     private Animator anim;
+    public float health = 100f;
+    public bool key = false;
+    public GameObject keys;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,10 @@ public class enemyai : MonoBehaviour
         move = dir;
         anim.SetFloat("X", dir.x);
         anim.SetFloat("Y", dir.y);
+        if(health <=0)
+        {
+            Destroy(gameObject);
+        }
 
     }
     private void FixedUpdate()
@@ -43,6 +50,13 @@ public class enemyai : MonoBehaviour
         if(attackrd)
         {
             rb.velocity = Vector2.zero;
+        }
+    }
+    private void OnDestroy()
+    {
+        if(key && keys!=null)
+        {
+            Instantiate(keys, transform.position, keys.transform.rotation);
         }
     }
 }

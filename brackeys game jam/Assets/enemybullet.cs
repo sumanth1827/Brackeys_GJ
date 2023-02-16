@@ -23,5 +23,13 @@ public class enemybullet : MonoBehaviour
     {
         rb.MovePosition((Vector2)transform.position + (dir * speed*Time.fixedDeltaTime));
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            collision.gameObject.GetComponent<Hunter>().health -= 20;
+        }
+
+    }
 
 }

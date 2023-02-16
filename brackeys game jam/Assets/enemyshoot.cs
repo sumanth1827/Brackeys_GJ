@@ -12,6 +12,7 @@ public class enemyshoot : MonoBehaviour
     private Vector2 move, dir;
     float t=0;
     public GameObject bullet;
+    public float health = 100f;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,10 @@ public class enemyshoot : MonoBehaviour
                 t = 0;
             }
              
+        }
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
     private void FixedUpdate()
