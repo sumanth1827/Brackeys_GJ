@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 1625584884149328368}
   - component: {fileID: 1625584884149328371}
   - component: {fileID: -5712359270151245454}
-  - component: {fileID: -6234634342861343858}
-  - component: {fileID: -8982412385135479750}
+  - component: {fileID: 3064319134239302140}
+  - component: {fileID: 1372426105264311098}
   m_Layer: 0
-  m_Name: HunterBullet
+  m_Name: enemybullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -108,7 +108,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-6234634342861343858
+--- !u!114 &3064319134239302140
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,11 +117,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1625584884149328370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6be1e664d485541c3a72513610ae9551, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aa721ba00b8b754a9784a8826318adb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 10
---- !u!58 &-8982412385135479750
+  speed: 15
+--- !u!58 &1372426105264311098
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

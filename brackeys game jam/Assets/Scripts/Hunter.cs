@@ -34,11 +34,18 @@ public class Hunter : MonoBehaviour
 
     public static Hunter instance;
 
+    //health
+    public float health = 100f;
+
+    //key
+    private bool haskey;
+    public Transform button;
 
     private void Start()
     {
         hunterRb = GetComponent<Rigidbody2D>();
         instance = this;
+
     }
 
     private void Update()
@@ -50,8 +57,16 @@ public class Hunter : MonoBehaviour
         MouseFace();
 
         // Make the hunter move
-        HunterMovement();
+        //HunterMovement();
+        //die
+        if (health <= 0)
+        {
+            //Destroy(gameObject);
+            Debug.Log("dead");
+        }
 
+        //check for door
+        
         if (specialMoveState)
         {
             time += Time.deltaTime;
@@ -72,7 +87,27 @@ public class Hunter : MonoBehaviour
 
     private void FixedUpdate()
     {
+        HunterMovement();
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "key")
+        {
+            haskey = true;
+            Destroy(collision.gameObject);
+            //collision.transform.parent = gameObject.transform;
+            //Debug.Log("has key");
+        }
 
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "door" && haskey && Input.GetKeyDown("e"))
+        {
+            Debug.Log("open");
+            //collision.gameObject.GetComponentInChildren<Animator>().SetBool("door1", true);
+            collision.GetComponent<Animator>().SetBool("open door", true);
+        }
     }
 
     void GetInput()
@@ -112,7 +147,7 @@ public class Hunter : MonoBehaviour
     // Code which updates the movement of the hunter
     private void HunterMovement()
     {
-        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.deltaTime * movement.normalized);
+        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.fixedDeltaTime * movement.normalized);
     }
 
     // Code which makes the hunter shoot normal bullets
