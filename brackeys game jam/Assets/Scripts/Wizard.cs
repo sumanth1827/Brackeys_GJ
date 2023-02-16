@@ -50,7 +50,7 @@ public class Wizard : MonoBehaviour
         // make the player face the mouse
         MouseFace();
 
-        // Make the hunter move
+        // Make the Wizard move
         WizardMovement();
 
         if (specialMoveState)

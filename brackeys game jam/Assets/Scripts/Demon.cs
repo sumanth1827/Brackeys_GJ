@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Hunter : MonoBehaviour
+public class Demon : MonoBehaviour
 {
     // Player references
-    private Rigidbody2D hunterRb;
+    private Rigidbody2D demonRb;
 
     // Hunter movement references
     private Vector2 movement;
@@ -16,13 +16,15 @@ public class Hunter : MonoBehaviour
     // Other gameobject references and variables
     public Vector2 mousePos;
 
-    public GameObject gunBulletPrefab;
-    public GameObject specialBulletPrefab;
+    public Transform impactPoint;
+    public float impactRadius = 10f;
+    public LayerMask enemiesLayer;
 
     // special move references
     public int specialMoveTime = 5;
     public float specialFireRate = 5f;
     public float specialRotateSpeed = 5f;
+    public float specialMoveRadius = 5f;
 
     private float time = 0;
     private float specialFireTime = 0;
@@ -32,12 +34,12 @@ public class Hunter : MonoBehaviour
     private bool normalState = true;
     private bool specialMoveState = false;
 
-    public static Hunter instance;
+    public static Demon instance;
 
 
     private void Start()
     {
-        hunterRb = GetComponent<Rigidbody2D>();
+        demonRb = GetComponent<Rigidbody2D>();
         instance = this;
     }
 
@@ -49,24 +51,12 @@ public class Hunter : MonoBehaviour
         // make the player face the mouse
         MouseFace();
 
-        // Make the hunter move
-        HunterMovement();
+        // Make the Demon move
+        DemonMovement();
 
         if (specialMoveState)
         {
-            time += Time.deltaTime;
-
-            if (time < specialMoveTime)
-            {
-                SpecialMoveState();
-            }
-
-            else
-            {
-                time = 0;
-                specialMoveState = false;
-                normalState = true;
-            }
+            SpecialMoveState();
         }
     }
 
@@ -78,6 +68,7 @@ public class Hunter : MonoBehaviour
     void GetInput()
     {
         // setting the movement vector based on input
+
         if (normalState)
         {
             movement.x = Input.GetAxisRaw("Horizontal");
@@ -89,7 +80,7 @@ public class Hunter : MonoBehaviour
 
         // Click the mouse button to shoot
         if (Input.GetMouseButtonDown(0) && normalState)
-            HunterShooting();
+            DemonHit();
 
         if (Input.GetKeyDown("l") && normalState)
         {
@@ -108,28 +99,33 @@ public class Hunter : MonoBehaviour
         }
     }
 
-    // Code which updates the movement of the hunter
-    private void HunterMovement()
+    // Code which updates the movement of the Demon
+    private void DemonMovement()
     {
-        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.deltaTime * movement.normalized);
+        demonRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.deltaTime * movement.normalized);
     }
 
     // Code which makes the hunter shoot normal bullets
-    private void HunterShooting()
+    private void DemonHit()
     {
-        GameObject bulletObject = Instantiate(gunBulletPrefab, transform.position, Quaternion.identity);
+        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(impactPoint.position, impactRadius, enemiesLayer);
+
+        Debug.Log("Number of enemies affected by the attack: " + enemiesHit.Length);
     }
 
-    // Code to invoke the special move of the hunter
+    // Code to invoke the special move of the Demon
     private void SpecialMoveState()
     {
-        specialFireTime += Time.deltaTime;
-        if (specialFireTime > 1 / specialFireRate)
-        {
-            GameObject specialBulletObject = Instantiate(specialBulletPrefab, transform.position, Quaternion.identity);
-            specialFireTime = 0;
-        }
+        Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(this.transform.position, specialMoveRadius, enemiesLayer);
 
-        transform.Rotate(new Vector3(0f, 0f, specialRotateSpeed * Time.deltaTime));
+        Debug.Log(enemiesHit.Length + " enemies hit by the special move");
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        if (impactPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(transform.position, specialMoveRadius);
     }
 }
