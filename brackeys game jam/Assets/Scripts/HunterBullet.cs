@@ -29,6 +29,7 @@ public class HunterBullet : MonoBehaviour
     private void FixedUpdate()
     {
         BulletMovement();
+
     }
 
     private void BulletMovement()
@@ -40,12 +41,9 @@ public class HunterBullet : MonoBehaviour
     {
         if (collision.tag == "enemy")
         {
-            collision.gameObject.GetComponent<enemyai>().health -= 50;
+            collision.gameObject.GetComponent<health>().damage();
         }
-        if (collision.tag == "enemy1")
-        {
-            collision.gameObject.GetComponent<enemyshoot>().health -= 50;
-        }
+
     }
 
 }

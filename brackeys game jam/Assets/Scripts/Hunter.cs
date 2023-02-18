@@ -38,9 +38,10 @@ public class Hunter : MonoBehaviour
     public float health = 100f;
 
     //key
-    private bool haskey;
+    public bool haskey;
     public Transform button;
 
+    public LayerMask tap;
     private void Start()
     {
         hunterRb = GetComponent<Rigidbody2D>();
@@ -50,6 +51,7 @@ public class Hunter : MonoBehaviour
 
     private void Update()
     {
+        
         // getting the inputs
         GetInput();
 
@@ -83,11 +85,29 @@ public class Hunter : MonoBehaviour
                 normalState = true;
             }
         }
+
+        if (Input.GetKeyDown("e"))
+        {
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)this.gameObject.transform.position, 4f, tap);
+            if (hit.collider != null)
+            {
+                if (hit.collider.gameObject.GetComponent<puzzlebutton>().zero == 0)
+                {
+                    hit.collider.gameObject.GetComponent<puzzlebutton>().down();
+                }
+                else
+                {
+                    hit.collider.gameObject.GetComponent<puzzlebutton>().up();
+                }
+            }
+        }
     }
 
     private void FixedUpdate()
     {
         HunterMovement();
+        
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -95,20 +115,11 @@ public class Hunter : MonoBehaviour
         {
             haskey = true;
             Destroy(collision.gameObject);
-            //collision.transform.parent = gameObject.transform;
-            //Debug.Log("has key");
+
         }
 
     }
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.tag == "door" && haskey && Input.GetKeyDown("e"))
-        {
-            Debug.Log("open");
-            //collision.gameObject.GetComponentInChildren<Animator>().SetBool("door1", true);
-            collision.GetComponent<Animator>().SetBool("open door", true);
-        }
-    }
+    
 
     void GetInput()
     {
@@ -147,7 +158,8 @@ public class Hunter : MonoBehaviour
     // Code which updates the movement of the hunter
     private void HunterMovement()
     {
-        hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.fixedDeltaTime * movement.normalized);
+        // hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.fixedDeltaTime * movement.normalized);
+        hunterRb.AddForce(movement.normalized * hunterSpeed* Time.fixedDeltaTime);
     }
 
     // Code which makes the hunter shoot normal bullets
