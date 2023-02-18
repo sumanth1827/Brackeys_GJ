@@ -147,13 +147,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c579109d672a7d4cb79880c2ba30e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkradius: 15
+  checkradius: 100
   attackradius: 7
   speed: 5
   player:
     serializedVersion: 2
     m_Bits: 64
-  pos: {fileID: 0}
   bullet: {fileID: 1625584884149328370, guid: 033eda7700949be4989fb5c65c1b25cb, type: 3}
   health: 100
   time: 1
@@ -170,4 +169,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healths: 100
-  damageamt: 20
+  damageamt: 40

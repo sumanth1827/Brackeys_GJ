@@ -14,6 +14,7 @@ public class ghostenemy : MonoBehaviour
     Color col, col2;
     private Animator anim;
     private float timer = 0f;
+    private Collider2D collide;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +26,7 @@ public class ghostenemy : MonoBehaviour
         col = GetComponent<SpriteRenderer>().material.color;
         col2 = new Color(col.r,col.g,col.b,1f);
         actspeed = speed;
+        collide = GetComponent<Collider2D>();
 
     }
 
@@ -43,6 +45,7 @@ public class ghostenemy : MonoBehaviour
 
 
             anim.SetBool("ghost", true);
+            collide.enabled = true;
             //GetComponent<SpriteRenderer>().material.color = Color.Lerp(GetComponent<SpriteRenderer>().material.color, col2,0.5f);
             //GetComponent<SpriteRenderer>().material.color = col2;
             //speed += 2f;
@@ -50,6 +53,8 @@ public class ghostenemy : MonoBehaviour
         if(checkrd && !attackrd)
         {
             anim.SetBool("ghost", false);
+            collide.enabled = false;
+
         }
         if (attack2)
         {
@@ -63,6 +68,7 @@ public class ghostenemy : MonoBehaviour
                 attack = true;
                 attack2 = false;
                 anim.SetBool("ghost", false);
+                collide.enabled = false;
                 timer = 0f;
             }
         }
@@ -85,6 +91,7 @@ public class ghostenemy : MonoBehaviour
                 rb2.AddForce(move * knockback, ForceMode2D.Impulse);
                 attack2 = true;
                 speed = actspeed;
+                collide.enabled = false;
                 Invoke("gone", 0.5f);
 
 

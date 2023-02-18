@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e94d6b80400d4944086ea31b3571fd26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  checkradius: 30
+  checkradius: 100
   attackradius: 4
   speed: 5
   knockback: 15
@@ -189,4 +189,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healths: 100
-  damageamt: 50
+  damageamt: 100
