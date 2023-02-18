@@ -13,6 +13,7 @@ public class wavespawner : MonoBehaviour
     [SerializeField] private int waveno = 0;
    float wavetimer = 10f, spawntimer = 0f;
     [SerializeField] float spawnsettimer = 0.5f, wavesettimer = 10f;
+    [SerializeField] Transform parentenemy;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,12 +53,12 @@ public class wavespawner : MonoBehaviour
                     checkrd = Physics2D.OverlapCircle(transform.position, checkradius, player);
                     if (checkrd)
                     {
-                        Instantiate(enemies[0], childloc.position, enemies[0].transform.rotation);
+                        Instantiate(enemies[0], childloc.position, enemies[0].transform.rotation, parentenemy);
 
                     }
                     else
                     {
-                        Instantiate(enemies[0], transform.position, enemies[0].transform.rotation);
+                        Instantiate(enemies[0], transform.position, enemies[0].transform.rotation, parentenemy);
                     }
 
                 }

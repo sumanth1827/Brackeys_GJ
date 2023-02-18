@@ -5,6 +5,7 @@ using UnityEngine;
 public class door : MonoBehaviour
 {
     public Animator anim;
+    [SerializeField] GameObject sp1;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,5 +28,13 @@ public class door : MonoBehaviour
                 collision.GetComponent<Hunter>().haskey = false;
             }
         }
+    }
+    void wavestarter()
+    {
+        Invoke("actualstarter", 4);
+    }
+    private void actualstarter()
+    {
+        sp1.SetActive(true);
     }
 }
