@@ -60,7 +60,6 @@ public class Hunter : MonoBehaviour
         if (specialMoveState)
         {
             time += Time.deltaTime;
-            specialMuzzleFlash.gameObject.SetActive(true);
 
             if (time < specialMoveTime)
             {
@@ -72,14 +71,8 @@ public class Hunter : MonoBehaviour
                 time = 0;
                 specialMoveState = false;
                 normalState = true;
-                specialMuzzleFlash.gameObject.SetActive(false);
             }
         }
-    }
-
-    private void FixedUpdate()
-    {
-
     }
 
     void GetInput()

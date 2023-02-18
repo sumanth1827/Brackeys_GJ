@@ -155,7 +155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hunterSpeed: 5
   mousePos: {x: 0, y: 0}
-  wizardOrbPrefab: {fileID: 7825880840329414136, guid: be2420d77442944129e6c9615bee9fd9, type: 3}
+  wizardOrbPrefab: {fileID: 7404152923406153529, guid: 774e7ee0980144cec870749668bf012f, type: 3}
   specialMoveTime: 5
   beam: {fileID: 6878908406585242161}
   beamStartPoint: {fileID: 6878908405801212909}

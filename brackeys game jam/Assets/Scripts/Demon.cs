@@ -19,6 +19,7 @@ public class Demon : MonoBehaviour
     public Transform impactPoint;
     public float impactRadius = 10f;
     public LayerMask enemiesLayer;
+
     public ParticleSystem specialMoveParticles;
 
     // special move references
@@ -37,7 +38,6 @@ public class Demon : MonoBehaviour
 
     public static Demon instance;
 
-
     private void Start()
     {
         demonRb = GetComponent<Rigidbody2D>();
@@ -55,16 +55,6 @@ public class Demon : MonoBehaviour
 
         // Make the Demon move
         DemonMovement();
-
-        if (specialMoveState)
-        {
-            SpecialMoveState();
-        }
-    }
-
-    private void FixedUpdate()
-    {
-
     }
 
     void GetInput()
@@ -81,8 +71,8 @@ public class Demon : MonoBehaviour
 
         if (Input.GetKeyDown("l") && normalState)
         {
-            normalState = false;
-            specialMoveState = true;
+            Debug.Log("L pressed");
+            SpecialMoveState();
         }
     }
 
@@ -111,9 +101,8 @@ public class Demon : MonoBehaviour
     private void SpecialMoveState()
     {
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(this.transform.position, specialMoveRadius, enemiesLayer);
+        Debug.Log(enemiesHit.Length);
         specialMoveParticles.Play();
-        Debug.Log(enemiesHit.Length + " enemies hit by the special move");
-
     }
 
     private void OnDrawGizmosSelected()
