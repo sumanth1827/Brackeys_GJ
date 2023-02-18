@@ -105,7 +105,7 @@ public class Wizard : MonoBehaviour
 
     void WizardShooting()
     {
-        GameObject bulletObject = Instantiate(wizardOrbPrefab, transform.position, Quaternion.identity);
+        GameObject bulletObject = Instantiate(wizardOrbPrefab, beamStartPoint.position, Quaternion.identity);
     }
 
     private void SpecialMoveState()

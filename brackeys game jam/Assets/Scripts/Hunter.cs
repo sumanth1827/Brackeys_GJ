@@ -18,6 +18,9 @@ public class Hunter : MonoBehaviour
 
     public GameObject gunBulletPrefab;
     public GameObject specialBulletPrefab;
+    public ParticleSystem muzzleFlash;
+    public ParticleSystem specialMuzzleFlash;
+    public Transform shootingPoint;
 
     // special move references
     public int specialMoveTime = 5;
@@ -37,8 +40,10 @@ public class Hunter : MonoBehaviour
 
     private void Start()
     {
+        muzzleFlash = GetComponentInChildren<ParticleSystem>();
         hunterRb = GetComponent<Rigidbody2D>();
         instance = this;
+        specialMuzzleFlash.gameObject.SetActive(false);
     }
 
     private void Update()
@@ -55,6 +60,7 @@ public class Hunter : MonoBehaviour
         if (specialMoveState)
         {
             time += Time.deltaTime;
+            specialMuzzleFlash.gameObject.SetActive(true);
 
             if (time < specialMoveTime)
             {
@@ -66,6 +72,7 @@ public class Hunter : MonoBehaviour
                 time = 0;
                 specialMoveState = false;
                 normalState = true;
+                specialMuzzleFlash.gameObject.SetActive(false);
             }
         }
     }
@@ -117,7 +124,8 @@ public class Hunter : MonoBehaviour
     // Code which makes the hunter shoot normal bullets
     private void HunterShooting()
     {
-        GameObject bulletObject = Instantiate(gunBulletPrefab, transform.position, Quaternion.identity);
+        GameObject bulletObject = Instantiate(gunBulletPrefab, shootingPoint.position, Quaternion.identity);
+        muzzleFlash.Play();
     }
 
     // Code to invoke the special move of the hunter
@@ -126,7 +134,7 @@ public class Hunter : MonoBehaviour
         specialFireTime += Time.deltaTime;
         if (specialFireTime > 1 / specialFireRate)
         {
-            GameObject specialBulletObject = Instantiate(specialBulletPrefab, transform.position, Quaternion.identity);
+            GameObject specialBulletObject = Instantiate(specialBulletPrefab, shootingPoint.position, Quaternion.identity);
             specialFireTime = 0;
         }
 

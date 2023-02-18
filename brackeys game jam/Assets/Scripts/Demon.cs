@@ -19,6 +19,7 @@ public class Demon : MonoBehaviour
     public Transform impactPoint;
     public float impactRadius = 10f;
     public LayerMask enemiesLayer;
+    public ParticleSystem specialMoveParticles;
 
     // special move references
     public int specialMoveTime = 5;
@@ -41,6 +42,7 @@ public class Demon : MonoBehaviour
     {
         demonRb = GetComponent<Rigidbody2D>();
         instance = this;
+        specialMoveParticles = GetComponentInChildren<ParticleSystem>();
     }
 
     private void Update()
@@ -69,14 +71,9 @@ public class Demon : MonoBehaviour
     {
         // setting the movement vector based on input
 
-        if (normalState)
-        {
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
-        }
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
 
-        else if (specialMoveState)
-            movement = new Vector2(0f, 0f);
 
         // Click the mouse button to shoot
         if (Input.GetMouseButtonDown(0) && normalState)
@@ -92,11 +89,8 @@ public class Demon : MonoBehaviour
     // Code for  setting the player to face the direction of the mouse.
     private void MouseFace()
     {
-        if (normalState)
-        {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             transform.up = mousePos - (Vector2)transform.position;
-        }
     }
 
     // Code which updates the movement of the Demon
@@ -117,8 +111,9 @@ public class Demon : MonoBehaviour
     private void SpecialMoveState()
     {
         Collider2D[] enemiesHit = Physics2D.OverlapCircleAll(this.transform.position, specialMoveRadius, enemiesLayer);
-
+        specialMoveParticles.Play();
         Debug.Log(enemiesHit.Length + " enemies hit by the special move");
+
     }
 
     private void OnDrawGizmosSelected()
@@ -126,6 +121,6 @@ public class Demon : MonoBehaviour
         if (impactPoint == null)
             return;
 
-        Gizmos.DrawWireSphere(transform.position, specialMoveRadius);
+        Gizmos.DrawWireSphere(impactPoint.position, impactRadius);
     }
 }
