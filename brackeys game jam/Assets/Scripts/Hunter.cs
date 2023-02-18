@@ -42,16 +42,26 @@ public class Hunter : MonoBehaviour
     public Transform button;
 
     public LayerMask tap;
+
+    private Animator anim;
     private void Start()
     {
         hunterRb = GetComponent<Rigidbody2D>();
         instance = this;
+        anim = GetComponentInChildren<Animator>();
 
     }
 
     private void Update()
     {
-        
+        if(movement != Vector2.zero)
+        {
+            anim.SetBool("walk", true);
+        }
+        else
+        {
+            anim.SetBool("walk", false);
+        }
         // getting the inputs
         GetInput();
 

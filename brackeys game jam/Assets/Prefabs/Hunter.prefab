@@ -190,6 +190,12 @@ MonoBehaviour:
   specialMoveTime: 4
   specialFireRate: 20
   specialRotateSpeed: 500
+  health: 100
+  haskey: 0
+  button: {fileID: 0}
+  tap:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!50 &4921610947600559656
 Rigidbody2D:
   serializedVersion: 4
