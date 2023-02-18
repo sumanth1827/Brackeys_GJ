@@ -6,17 +6,21 @@ public class enemyshoot : MonoBehaviour
 {
     public float checkradius, attackradius, speed;
     public LayerMask player;
-    public Transform pos;
+    private Transform pos;
     private Rigidbody2D rb;
     private bool checkrd, attackrd;
     private Vector2 move, dir;
-    float t=0;
+    
     public GameObject bullet;
     public float health = 100f;
+    public float time = 1;
+    float t;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        pos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        t = time;
     }
 
     // Update is called once per frame
@@ -35,7 +39,7 @@ public class enemyshoot : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
             t += Time.deltaTime;
-            if(t>1)
+            if(t>time)
             {
                 Instantiate(bullet, transform.position, Quaternion.identity);
                 t = 0;

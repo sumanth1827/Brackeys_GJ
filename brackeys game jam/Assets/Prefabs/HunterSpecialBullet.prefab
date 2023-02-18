@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1219910810400126053}
   - component: {fileID: 8627904577816330029}
   - component: {fileID: 8482292146839069161}
+  - component: {fileID: 385170841765620639}
   m_Layer: 0
   m_Name: HunterSpecialBullet
   m_TagString: Untagged
@@ -120,3 +121,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 12
+--- !u!58 &385170841765620639
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219910810400126050}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.21133333}
+  serializedVersion: 2
+  m_Radius: 0.5

@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class enemyai : MonoBehaviour
 {
-    public float checkradius, attackradius, speed;
+    public float checkradius, attackradius, speed, knockback;
     public LayerMask player;
-    public Transform pos;
-    private Rigidbody2D rb;
+    private GameObject pos;
+    private Rigidbody2D rb,rb2;
     private bool checkrd, attackrd;
     private Vector2 move, dir;
     private Animator anim;
-    public float health = 100f;
+    
     public bool key = false;
     public GameObject keys;
+    private health h;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        pos = GameObject.FindGameObjectWithTag("Player");
+        rb2 = pos.GetComponent<Rigidbody2D>();
+        h = GetComponent<health>();
+
+        
     }
 
     // Update is called once per frame
@@ -28,14 +34,19 @@ public class enemyai : MonoBehaviour
         attackrd = Physics2D.OverlapCircle(transform.position, attackradius, player);
         anim.SetBool("Start", checkrd);
         anim.SetBool("Attack", attackrd);
-        dir = pos.position - transform.position;
+        dir = pos.transform.position - transform.position;
         dir.Normalize();
         move = dir;
         anim.SetFloat("X", dir.x);
         anim.SetFloat("Y", dir.y);
-        if(health <=0)
+        if(h.healths <=0)
         {
+            if (key && keys != null)
+            {
+                Instantiate(keys, transform.position, keys.transform.rotation);
+            }
             Destroy(gameObject);
+
         }
 
     }
@@ -52,11 +63,11 @@ public class enemyai : MonoBehaviour
             rb.velocity = Vector2.zero;
         }
     }
-    private void OnDestroy()
+    public void forcer()
     {
-        if(key && keys!=null)
-        {
-            Instantiate(keys, transform.position, keys.transform.rotation);
-        }
+        rb2.AddForce(move * knockback, ForceMode2D.Impulse);
+        pos.GetComponent<Hunter>().health -= 10;
+       
     }
+ 
 }

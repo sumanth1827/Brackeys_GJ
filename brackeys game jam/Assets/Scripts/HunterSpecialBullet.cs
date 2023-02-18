@@ -28,6 +28,14 @@ public class HunterSpecialBullet : MonoBehaviour
     {
         specialRb.MovePosition((Vector2)this.transform.position + bulletMovDir * bulletSpeed * Time.fixedDeltaTime);
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "enemy")
+        {
+            collision.gameObject.GetComponent<health>().damage();
+            Destroy(gameObject);
+        }
 
+    }
 
 }
