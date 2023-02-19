@@ -44,7 +44,13 @@ public class HunterBullet : MonoBehaviour
             collision.gameObject.GetComponent<health>().damage();
             Destroy(gameObject);
         }
+        if(collision.tag == "enemy1")
+        {
+            collision.gameObject.GetComponent<enemyai>().damager();
+            Destroy(gameObject);
+        }
 
     }
+
 
 }
