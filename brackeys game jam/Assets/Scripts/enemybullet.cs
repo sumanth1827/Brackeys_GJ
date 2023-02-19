@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemybullet : MonoBehaviour
 {
@@ -26,8 +27,11 @@ public class enemybullet : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
-        {
-            collision.gameObject.GetComponent<Hunter>().health -= 20;
+        {   
+            if(SceneManager.GetActiveScene().name == "wizard scene")
+                player.GetComponent<Wizard>().health -= 10;
+            else if (SceneManager.GetActiveScene().name == "MapScene")
+                player.GetComponent<Hunter>().health -= 10;
         }
 
     }

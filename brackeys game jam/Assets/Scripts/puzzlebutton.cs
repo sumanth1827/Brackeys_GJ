@@ -6,6 +6,7 @@ public class puzzlebutton : MonoBehaviour
 {
     
     public  int zero = 0;
+    public int jugad = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,16 +16,30 @@ public class puzzlebutton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("aloo");
     }
     public void up()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y + 0.3f);
-        zero = 0;
+        if ( jugad == 0 )
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y + 0.3f);
+        }
+        else
+        {
+            transform.position = new Vector2(transform.position.x + 0.21f, transform.position.y - 0.21f);
+        }
+            zero = 0;
     }
     public void down()
     {
-        transform.position = new Vector2(transform.position.x, transform.position.y - 0.3f);
+        if ( jugad == 0 )
+        {
+            transform.position = new Vector2(transform.position.x, transform.position.y - 0.3f);
+        }
+        else{
+            transform.position = new Vector2(transform.position.x - 0.21f, transform.position.y + 0.21f);
+        }
+        
         zero = 1;
     }
 }
