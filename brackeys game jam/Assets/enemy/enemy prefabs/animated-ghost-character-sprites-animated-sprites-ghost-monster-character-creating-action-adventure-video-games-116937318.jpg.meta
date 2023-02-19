@@ -1,0 +1,1743 @@
+fileFormatVersion: 2
+guid: 6e88072ddb1a15345a5d526116d99f91
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770153edc227fce4faec59e326c3dc6e
+      internalID: -1795127258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a02609cb1f4210e4d94477d3b8ddc32a
+      internalID: -614321719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a904103dd1ace44a44a732f7769c5b
+      internalID: -2057398690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_3
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f68e3055ae47f54ca580e00e57a20da
+      internalID: -902526135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ecdc1f057573242bae88e33a0bdf96
+      internalID: 1017337152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa453be0abbfc946b23c8b7846fe9df
+      internalID: -500749858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_6
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671d76c1b050ad4428ec685e1b00d04f
+      internalID: -301998618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356d05ae568f5c04fa3931156f2d6b4b
+      internalID: 650343735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_8
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1092
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe15f161f249844bcfb7c94a34bc52
+      internalID: -631311936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_9
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91624475d2034d74fb9f64ba16673a19
+      internalID: -1133452054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2603d829f9f5d4aa0b3f2422f579f3
+      internalID: -310285112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_11
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cca5ea7189ee89845a9b8fe481cd0edd
+      internalID: 1069787013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_12
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 288a5da7e898fc54498927e09539c738
+      internalID: 250622217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_13
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd063eac9a962cb45a8b739df46de248
+      internalID: -94335644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_14
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9f149f0a9021e4d924a3edec65362c
+      internalID: 923412708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_15
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31f89bd30bd5b5a4a9fe96ff5f6b5a05
+      internalID: -810513032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_16
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba3e7a487043ea4292466e6061f32fd
+      internalID: 115851165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_17
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 952
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61eecba5963cdf54495241161cb90ee2
+      internalID: -373145134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_18
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4750ca4f2dccd409b1ef60bdbb5889
+      internalID: -117072688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0244076f9d1630e49a4dccd20dc5dc7c
+      internalID: -394687156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_20
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb9625dd9c46294db97b836c48618f2
+      internalID: 563692559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_21
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f37553372856245984cb27cbe53abf
+      internalID: 1753036898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70865083e28b9e24a9e8d2243d3e29fd
+      internalID: -2101919940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_23
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cff0db6eb1c1f24f8a365db390d22c7
+      internalID: 1003872204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_24
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3d8e4298266fe4c90ba92488252e4d
+      internalID: -1650227198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_25
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63131a676d48d049b54b510bbb50d11
+      internalID: -707124075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_26
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 812
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91add553845bf34e99d6eaf9c417fc8
+      internalID: -1894351115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_27
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867e08e7f58b32d40bc2abfc954abded
+      internalID: 1682156678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0002b7d49c2505147bab9c97a8e5162c
+      internalID: -2120622960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_29
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30a4267f5c6ff14f97a25cd35b6fe22
+      internalID: 119561684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_30
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2387e201346ffc46aab8d6a82ccd18a
+      internalID: -245086255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_31
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d74f46b4daa51498c6c1253b291d7a
+      internalID: -565730986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_32
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ba105bdbb0c6146a4cd47b00232873
+      internalID: 1843990911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_33
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69de531edd33e14884ae938e20bfa74
+      internalID: -1360302241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_34
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f657ace316b90574aa46aeb06d04b2bf
+      internalID: 699188454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_35
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 672
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9ac286231d6724d93ca099131ccde9
+      internalID: -1574802803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_36
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47beefda080bd6745a1af4a850d20034
+      internalID: 1418546040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db6c666879f57654899ed7e6425e8a8b
+      internalID: 1052733426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_38
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8d7c8059d98eb41a65a076b5c1d6a4
+      internalID: -642661012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_39
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbb0b9a3e9e62d4097b3cc0f9c824d1
+      internalID: -289006526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_40
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79364944c36d347478631efda911ffa9
+      internalID: -1123525210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_41
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8376cd43623f3f44db1fea5a70ea12dc
+      internalID: 1722906904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_42
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f3e1e78116e44895f2bde92096f45
+      internalID: -2026988611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_43
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83a7058cef03404fad26296494c518d
+      internalID: -711474360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_44
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 532
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff0b45d33024d84e86c22a290c8852a
+      internalID: -1158415781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_45
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506dff07c99ea74c84fc925ffebe035
+      internalID: 1678922192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_46
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a9f1397200a3d4484c0cd7890d5187
+      internalID: -1228188644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_47
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194bca2d5e0b9624e81316c345295417
+      internalID: -699120118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_48
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcb6b2d747cd22489743f5ccdc125b6
+      internalID: 1950694827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_49
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb17c42a951217742b60f8f30bb7706a
+      internalID: -1847375363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_50
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb26a4d1843dbba44b2fd83c9760cce4
+      internalID: -174307271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_51
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53482e00fca096840b08f6856ec0e41e
+      internalID: 1267690168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_52
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ac141d108db3b49a48daeb67ab9765
+      internalID: 1638502434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_53
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 392
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 547dee075eb529a4cbbf506ee53c65dc
+      internalID: -1506330538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_54
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93807117e3fbee64ca933242b85c4fc6
+      internalID: 2055225116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_55
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691f1912c26399146ae349f0ca86d2fa
+      internalID: 1741116176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_56
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30741aa715a6ab3448426472de7dd1e5
+      internalID: 1921389151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_57
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c08c48a0e1c6744ebdae6ce01316071
+      internalID: -507286580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_58
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca418bc3ac507649a9458b767b54b0a
+      internalID: -92139879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_59
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3553a305a0833488635bf65d839955
+      internalID: -1552280218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_60
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a910b8dffdb3fb442b703c8bb58d2ba6
+      internalID: -570327292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_61
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42c811e77fbde4d9f75a2f8274562c
+      internalID: 246662217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_62
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 252
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2370823afd2c6ee438ce6a99a83e5a6a
+      internalID: -215804000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_63
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fae9d80ab35c445aca85cc526933c9
+      internalID: 762578838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_64
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d56f116d9e64d0488e2fa75484713e2
+      internalID: 885841197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_65
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a7aa510b8e77a4395d1f85f1d60c53
+      internalID: 732758971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_66
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b970052a4a11fcf4f9090a8b58fd2aec
+      internalID: 1215564965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_67
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d4c1484284dfc4f912a97b6a74b936
+      internalID: -1774452226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_68
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10dca61edee3834393276d1f68d748f
+      internalID: 1163848169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_69
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06d8c568f10376048ac50a33344eb593
+      internalID: 1071775708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_70
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4106e09794ebeea49901673b34f1ff9c
+      internalID: 1618585459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_71
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 112
+        width: 135
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350f833fa867e9746a05080022d6a6ba
+      internalID: 1845231761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_62: -215804000
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_16: 115851165
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_59: -1552280218
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_0: -1795127258
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_67: -1774452226
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_68: 1163848169
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_65: 732758971
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_40: -1123525210
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_24: -1650227198
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_71: 1845231761
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_57: -507286580
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_60: -570327292
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_1: -614321719
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_31: -565730986
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_14: 923412708
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_38: -642661012
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_6: -301998618
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_12: 250622217
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_36: 1418546040
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_61: 246662217
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_70: 1618585459
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_2: -2057398690
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_11: 1069787013
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_56: 1921389151
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_58: -92139879
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_23: 1003872204
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_29: 119561684
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_50: -174307271
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_46: -1228188644
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_25: -707124075
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_45: 1678922192
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_48: 1950694827
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_17: -373145134
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_63: 762578838
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_19: -394687156
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_20: 563692559
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_3: -902526135
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_4: 1017337152
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_52: 1638502434
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_64: 885841197
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_39: -289006526
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_35: -1574802803
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_18: -117072688
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_55: 1741116176
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_7: 650343735
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_37: 1052733426
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_9: -1133452054
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_27: 1682156678
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_47: -699120118
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_33: -1360302241
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_69: 1071775708
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_5: -500749858
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_53: -1506330538
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_22: -2101919940
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_44: -1158415781
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_42: -2026988611
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_13: -94335644
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_30: -245086255
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_43: -711474360
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_41: 1722906904
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_8: -631311936
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_15: -810513032
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_54: 2055225116
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_28: -2120622960
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_34: 699188454
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_10: -310285112
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_32: 1843990911
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_66: 1215564965
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_49: -1847375363
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_26: -1894351115
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_21: 1753036898
+      animated-ghost-character-sprites-animated-sprites-ghost-monster-character-creating-action-adventure-video-games-116937318_51: 1267690168
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

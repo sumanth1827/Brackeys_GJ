@@ -1,0 +1,2711 @@
+fileFormatVersion: 2
+guid: 62c0f07ac7afb57488911b77dce9d6e6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 284
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3acc148bf4b994095f808a8f51eb33
+      internalID: -1006972024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_1
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 284
+        width: 41
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44c6c874d3591a44b2066977c77f64c
+      internalID: 736037006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 284
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbc21e426beaf34eb57b901ee8189f4
+      internalID: 873217350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_3
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 284
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2c6b66b2266c94ea7ece22ec94cfe6
+      internalID: -1872761245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_4
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 284
+        width: 46
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d10f13ff18af7a46a23f115091c917d
+      internalID: -1129053953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_5
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 284
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601eac14b1ead824faa4d3ea8cfa9d71
+      internalID: 171241390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_6
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 284
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be89fae038fce9e4885634b50a2cb886
+      internalID: 951343684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 284
+        width: 41
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a85a5f1524c9a04e8221a27e7dd2b37
+      internalID: -716169243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_8
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 284
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37804f95973b9244ae447645a880c0c
+      internalID: -187708856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f2d89cdb6ac8a4ca3bfa7e8e4694db
+      internalID: 1942956795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 193
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01d0c832de836034b8a05be55a4f9757
+      internalID: -144120753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_11
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 193
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b9df3a8d579d341b75b3bef219472c
+      internalID: 1450968589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_12
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 193
+        width: 59
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ad2f78da8bd6a418fbb5910a6e2a0b
+      internalID: -732418953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_13
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 193
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62f43b363f6df64099d2b2d6974fab8
+      internalID: -17273924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_14
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 192
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c39e995663b14940acc3878db4f88f4
+      internalID: 525734370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_15
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 177
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5627301739632f2438ecc49a05bd277b
+      internalID: -1703092315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_16
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 172
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44f88851648d335408fada33fa3173a0
+      internalID: 1913357869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_17
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 193
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e3e72421e1ea46a952404dc867351
+      internalID: 1596558519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_18
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 90
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a0d904084a26d49a3c9b2a00292877
+      internalID: -1308131521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_19
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 90
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3085805603a5845a2f33b9b1fb6439
+      internalID: -1472345542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 107
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39674456faf3617438eeff4d2a5645b2
+      internalID: -1816313699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_21
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 93
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0062d8d23fee71147b4d661b84a8330f
+      internalID: -159262040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 93
+        width: 53
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339538f281971a744bce7b4daa7f1f02
+      internalID: 1304423585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_23
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 93
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba2266557f07024e8c2dc8cdc3f8a30
+      internalID: -132027649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_24
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 93
+        width: 44
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404d7a65cb13f6d4d82d68b83322fa8b
+      internalID: -1995693678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_25
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 94
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37ba1d8adcdd996458eac326a8c4278d
+      internalID: -2075359647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_26
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 94
+        width: 43
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee669a48882366c4cae7094968fb679b
+      internalID: -173410268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_27
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51da5a7ed761e5439384b550facaafc
+      internalID: -917066494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_28
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 47
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1b5d889199b71448e8b30d68a549ef
+      internalID: -963088170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_29
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 46
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef454cc91b75f124ea4e8f0f8d39cc1d
+      internalID: 736781529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_30
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 46
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246b22f166b51e245838e4114fe90fc2
+      internalID: 1195054465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_31
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 45
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7f3f20266e8ec459f6bae087a134d4
+      internalID: 1706410258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_32
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 43
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179444f06a91dc84d9907caf8198c532
+      internalID: 966714818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_33
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 56
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd13022f74a245d4382a65499513ec0e
+      internalID: 1255813250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_34
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 424797f0312879643bdcb153bfb4cab4
+      internalID: -576312845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_35
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeabbe2423355747b878df877a80cb8
+      internalID: -234603301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_36
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0c7188d23acb84c8d482d2e050f253
+      internalID: -1871253794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_37
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 56
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b971d0289a88b0249b5a700eeb2b2d0d
+      internalID: 561996581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_38
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 56
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e7c70391753ff469a90182494d3f76
+      internalID: 1045526157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_39
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9aaeee3221171a49a15c302725d9b08
+      internalID: 40151138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_40
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 0
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42542b855818bb047a9227de21f5febd
+      internalID: 2017523680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3122458d61db0d54a84d156793950115
+      internalID: 1762589442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9558bbe0a6643b44588e200d4535e402
+      internalID: 1766017338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_43
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76530b89dc3a85a4480a04ef64d80f74
+      internalID: 100567924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 47
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d70e15fa308a504d845082518cdb919
+      internalID: -1861658300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_45
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 35
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d198410f2a34f46ac811e5b3eb67ed
+      internalID: -113939367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_46
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 38
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515ccb482c5fcc4f97c72f37cc9ffc6
+      internalID: -1243502166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_47
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 30
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9836b741d1085284589b60b6f0898629
+      internalID: 328858342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_48
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 30
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a428b59da5e754881cadaf2764a507
+      internalID: 2101049121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_49
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 30
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8998b4a0ca8a80a4bb4b4d2e8d7ea1ef
+      internalID: 1895635179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_50
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 30
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02fdb9e498db4f49a70a6c48c9bdd46
+      internalID: 1098577078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_51
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 30
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7965459176669345971b994a11120d6
+      internalID: 776495843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_52
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 30
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f17f6e0166e714db04bc0eb7ed8322
+      internalID: 542099647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_53
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 30
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4377acc62f3230849aaa0ff8c61ef2bc
+      internalID: -162223257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_54
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 27
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c64dba318bb139a47ae42d93765d2f90
+      internalID: 186026192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 30
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4353b43e57a342b4299c89bd49dcec0d
+      internalID: -882109865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_56
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cc598a0f460a74d9131e6fab367ac9
+      internalID: 947804633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_57
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a745abc9660bfe245b715d16ef15a2c4
+      internalID: 902589507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_58
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 38
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d0960c194e232498951dd5a56103d3
+      internalID: 1663453131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_59
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655de0b47830d604ab36b5892ab8ea27
+      internalID: 1792978961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 30
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9477a1658ff73b045a0f2a175669b70d
+      internalID: 1025994681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_61
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db337bf8b22f215489dfb337bc61580e
+      internalID: 1629902625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_62
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b195a61d14d8af94fbc31f494a54b55a
+      internalID: 1542642497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_63
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 30
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cbdb046b321a344814863a8adb75b3
+      internalID: 1857985298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_64
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae9d676c4dc5454dbe3c520d253ca31
+      internalID: 1258248044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_65
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf91ae094aa9db4dbf433379fd2626d
+      internalID: 1352302396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_66
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc7125d8662d5314f81d976df66cfeab
+      internalID: 1118074937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_67
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca276f424033bd04ea21cd1c89f8d4b4
+      internalID: 861057254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b969820e04b2014d9eea63d6df2257b
+      internalID: 1439819103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_69
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8637765ceba881549a9c339118c7250c
+      internalID: -1862270998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_70
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3802d51a71dc6174face42a94c0340c9
+      internalID: -1133662953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_71
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f450b9a90873040a8245bb59f0b4c7
+      internalID: 793794261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_72
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 4
+        width: 44
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 357b84536abc53a4c9691e323305fb65
+      internalID: -256731266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_73
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40fa03d6ed4775448116008f52fee64
+      internalID: 84851023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_74
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ea0028085e49945a012f9df16c4552
+      internalID: -697852415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_75
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc39c56d1d9e8e44895aa99a4017c5b2
+      internalID: 1840814478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_76
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 22
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b00f40630037c4eb21f51e5201282f
+      internalID: -1656335506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_77
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beae2f5fb1339044c8a013240db807a9
+      internalID: 1572136088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_78
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490073d9398c5304bbf6e0bbb44506c4
+      internalID: 382495643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_79
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 12
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa31fa866ac6fcb4c95d37926441909e
+      internalID: -140955969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_80
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 14
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075b44e64575fc44a93cbced0aac2e1f
+      internalID: -1044124650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_81
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 14
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 559068f841b1c264d8d2fdb600c98fb0
+      internalID: -746537060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_82
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 14
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe5b10f74f4b3e42b623bcb40ab6c50
+      internalID: 1153529077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_83
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0243d14b537f140a489aa4486fc113
+      internalID: -578447989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_84
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f1efd4380cb4847b45dac89d1148cd
+      internalID: -1415846105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_85
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 14
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a508b532aae1e024cb4fd023f4e6dc3c
+      internalID: 1844608091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_86
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 22
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 243d7febbb8ae5e45930dfa7aea70f6b
+      internalID: 171346674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_87
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6322d523e8b6b234980f9f070360402a
+      internalID: 1023831061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_88
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 19
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3f9fa9acc6ce249a28bb81fdd50606
+      internalID: 367724130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_89
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 22
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3565ff752b216a54fac147996734c91b
+      internalID: 2136989408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_90
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce0657c0b6a8284cb3e908d42a73137
+      internalID: 226424676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_91
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 22
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6cee24fc02e9049b43347dda792180
+      internalID: -1155177546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_92
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 19
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626e4904c31d66f46bfd5ae6a846cb95
+      internalID: 1298921702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_93
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 22
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03acdca1140d90a4f8ff548d9676cf52
+      internalID: -1982234717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_94
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 22
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b343d66725b44745a447ac8ee8c9a4b
+      internalID: -1851289960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_95
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572a09c1d1705264f8d5c49f3b25c69d
+      internalID: 20271204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_96
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 22
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f521c27bbad7e174992d9f0c17e6499c
+      internalID: -1293335044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_97
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964403023b732284c97943f8204a74f1
+      internalID: -1572510712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_98
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 14
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b015020594be604c9dbce174adc7f6c
+      internalID: -1350771737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_99
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 11
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6038c93afd0be498fbd2d5f374e13b
+      internalID: -114995462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_100
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce997d2015b879243ab10e9927b847c1
+      internalID: -33798256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_101
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 14
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a0c4ac62cd7544c8fe7cde111d5e8c
+      internalID: -394873490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_102
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 14
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2fc430bde4eb1449f4557ff41f31de
+      internalID: 1918406965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_103
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 3
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef2cfd8f5581eb4bba05233a5ed588f
+      internalID: 885008611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_104
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ba8c5c85318ad42bb096f8dc7e7578
+      internalID: 2145578975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_105
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505029ff055872d48b6f9dbb11c000e4
+      internalID: 678151088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_106
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 6
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50946115d33fc5d4d92c6e77cd988816
+      internalID: 2039432513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_107
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d634c88d89c66643891eae2c6070dfd
+      internalID: -444904460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_108
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd8cd31481765a4fa500140beb97833
+      internalID: -1977517673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_109
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 6
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63c263562b2694f90ab64a84dac96d
+      internalID: -165196006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_110
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b48f8273218f2499f3936eb15ab9ed
+      internalID: 807571761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_111
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410e8725585d43043b9c22f1c7e48b60
+      internalID: -2093833254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_112
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa2af5a20aeac24d9f9c7b35e553964
+      internalID: 1404267126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_113
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba27b013db2d6ed4d957794ea201df32
+      internalID: 52019489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_114
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01404445f90b3df468aaa875c2f195d1
+      internalID: 483728621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngfind.com-pacman-sprite-png-4526402_115
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598ba7b0f6be5e34ea3cfbbcbd1a2c47
+      internalID: 1806240755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngfind.com-pacman-sprite-png-4526402_101: -394873490
+      pngfind.com-pacman-sprite-png-4526402_92: 1298921702
+      pngfind.com-pacman-sprite-png-4526402_43: 100567924
+      pngfind.com-pacman-sprite-png-4526402_53: -162223257
+      pngfind.com-pacman-sprite-png-4526402_23: -132027649
+      pngfind.com-pacman-sprite-png-4526402_62: 1542642497
+      pngfind.com-pacman-sprite-png-4526402_107: -444904460
+      pngfind.com-pacman-sprite-png-4526402_32: 966714818
+      pngfind.com-pacman-sprite-png-4526402_81: -746537060
+      pngfind.com-pacman-sprite-png-4526402_85: 1844608091
+      pngfind.com-pacman-sprite-png-4526402_2: 873217350
+      pngfind.com-pacman-sprite-png-4526402_35: -234603301
+      pngfind.com-pacman-sprite-png-4526402_51: 776495843
+      pngfind.com-pacman-sprite-png-4526402_40: 2017523680
+      pngfind.com-pacman-sprite-png-4526402_27: -917066494
+      pngfind.com-pacman-sprite-png-4526402_55: -882109865
+      pngfind.com-pacman-sprite-png-4526402_13: -17273924
+      pngfind.com-pacman-sprite-png-4526402_47: 328858342
+      pngfind.com-pacman-sprite-png-4526402_60: 1025994681
+      pngfind.com-pacman-sprite-png-4526402_4: -1129053953
+      pngfind.com-pacman-sprite-png-4526402_114: 483728621
+      pngfind.com-pacman-sprite-png-4526402_109: -165196006
+      pngfind.com-pacman-sprite-png-4526402_94: -1851289960
+      pngfind.com-pacman-sprite-png-4526402_45: -113939367
+      pngfind.com-pacman-sprite-png-4526402_46: -1243502166
+      pngfind.com-pacman-sprite-png-4526402_57: 902589507
+      pngfind.com-pacman-sprite-png-4526402_11: 1450968589
+      pngfind.com-pacman-sprite-png-4526402_20: -1816313699
+      pngfind.com-pacman-sprite-png-4526402_18: -1308131521
+      pngfind.com-pacman-sprite-png-4526402_24: -1995693678
+      pngfind.com-pacman-sprite-png-4526402_52: 542099647
+      pngfind.com-pacman-sprite-png-4526402_93: -1982234717
+      pngfind.com-pacman-sprite-png-4526402_65: 1352302396
+      pngfind.com-pacman-sprite-png-4526402_91: -1155177546
+      pngfind.com-pacman-sprite-png-4526402_112: 1404267126
+      pngfind.com-pacman-sprite-png-4526402_71: 793794261
+      pngfind.com-pacman-sprite-png-4526402_38: 1045526157
+      pngfind.com-pacman-sprite-png-4526402_31: 1706410258
+      pngfind.com-pacman-sprite-png-4526402_8: -187708856
+      pngfind.com-pacman-sprite-png-4526402_16: 1913357869
+      pngfind.com-pacman-sprite-png-4526402_36: -1871253794
+      pngfind.com-pacman-sprite-png-4526402_70: -1133662953
+      pngfind.com-pacman-sprite-png-4526402_0: -1006972024
+      pngfind.com-pacman-sprite-png-4526402_39: 40151138
+      pngfind.com-pacman-sprite-png-4526402_28: -963088170
+      pngfind.com-pacman-sprite-png-4526402_49: 1895635179
+      pngfind.com-pacman-sprite-png-4526402_5: 171241390
+      pngfind.com-pacman-sprite-png-4526402_7: -716169243
+      pngfind.com-pacman-sprite-png-4526402_99: -114995462
+      pngfind.com-pacman-sprite-png-4526402_82: 1153529077
+      pngfind.com-pacman-sprite-png-4526402_104: 2145578975
+      pngfind.com-pacman-sprite-png-4526402_103: 885008611
+      pngfind.com-pacman-sprite-png-4526402_15: -1703092315
+      pngfind.com-pacman-sprite-png-4526402_115: 1806240755
+      pngfind.com-pacman-sprite-png-4526402_68: 1439819103
+      pngfind.com-pacman-sprite-png-4526402_58: 1663453131
+      pngfind.com-pacman-sprite-png-4526402_66: 1118074937
+      pngfind.com-pacman-sprite-png-4526402_98: -1350771737
+      pngfind.com-pacman-sprite-png-4526402_75: 1840814478
+      pngfind.com-pacman-sprite-png-4526402_37: 561996581
+      pngfind.com-pacman-sprite-png-4526402_74: -697852415
+      pngfind.com-pacman-sprite-png-4526402_90: 226424676
+      pngfind.com-pacman-sprite-png-4526402_10: -144120753
+      pngfind.com-pacman-sprite-png-4526402_50: 1098577078
+      pngfind.com-pacman-sprite-png-4526402_59: 1792978961
+      pngfind.com-pacman-sprite-png-4526402_96: -1293335044
+      pngfind.com-pacman-sprite-png-4526402_76: -1656335506
+      pngfind.com-pacman-sprite-png-4526402_79: -140955969
+      pngfind.com-pacman-sprite-png-4526402_63: 1857985298
+      pngfind.com-pacman-sprite-png-4526402_113: 52019489
+      pngfind.com-pacman-sprite-png-4526402_41: 1762589442
+      pngfind.com-pacman-sprite-png-4526402_34: -576312845
+      pngfind.com-pacman-sprite-png-4526402_77: 1572136088
+      pngfind.com-pacman-sprite-png-4526402_97: -1572510712
+      pngfind.com-pacman-sprite-png-4526402_44: -1861658300
+      pngfind.com-pacman-sprite-png-4526402_106: 2039432513
+      pngfind.com-pacman-sprite-png-4526402_108: -1977517673
+      pngfind.com-pacman-sprite-png-4526402_111: -2093833254
+      pngfind.com-pacman-sprite-png-4526402_9: 1942956795
+      pngfind.com-pacman-sprite-png-4526402_42: 1766017338
+      pngfind.com-pacman-sprite-png-4526402_3: -1872761245
+      pngfind.com-pacman-sprite-png-4526402_26: -173410268
+      pngfind.com-pacman-sprite-png-4526402_84: -1415846105
+      pngfind.com-pacman-sprite-png-4526402_29: 736781529
+      pngfind.com-pacman-sprite-png-4526402_33: 1255813250
+      pngfind.com-pacman-sprite-png-4526402_86: 171346674
+      pngfind.com-pacman-sprite-png-4526402_105: 678151088
+      pngfind.com-pacman-sprite-png-4526402_64: 1258248044
+      pngfind.com-pacman-sprite-png-4526402_48: 2101049121
+      pngfind.com-pacman-sprite-png-4526402_67: 861057254
+      pngfind.com-pacman-sprite-png-4526402_72: -256731266
+      pngfind.com-pacman-sprite-png-4526402_95: 20271204
+      pngfind.com-pacman-sprite-png-4526402_30: 1195054465
+      pngfind.com-pacman-sprite-png-4526402_87: 1023831061
+      pngfind.com-pacman-sprite-png-4526402_100: -33798256
+      pngfind.com-pacman-sprite-png-4526402_110: 807571761
+      pngfind.com-pacman-sprite-png-4526402_80: -1044124650
+      pngfind.com-pacman-sprite-png-4526402_56: 947804633
+      pngfind.com-pacman-sprite-png-4526402_25: -2075359647
+      pngfind.com-pacman-sprite-png-4526402_17: 1596558519
+      pngfind.com-pacman-sprite-png-4526402_14: 525734370
+      pngfind.com-pacman-sprite-png-4526402_54: 186026192
+      pngfind.com-pacman-sprite-png-4526402_69: -1862270998
+      pngfind.com-pacman-sprite-png-4526402_1: 736037006
+      pngfind.com-pacman-sprite-png-4526402_73: 84851023
+      pngfind.com-pacman-sprite-png-4526402_89: 2136989408
+      pngfind.com-pacman-sprite-png-4526402_12: -732418953
+      pngfind.com-pacman-sprite-png-4526402_19: -1472345542
+      pngfind.com-pacman-sprite-png-4526402_88: 367724130
+      pngfind.com-pacman-sprite-png-4526402_78: 382495643
+      pngfind.com-pacman-sprite-png-4526402_61: 1629902625
+      pngfind.com-pacman-sprite-png-4526402_83: -578447989
+      pngfind.com-pacman-sprite-png-4526402_102: 1918406965
+      pngfind.com-pacman-sprite-png-4526402_21: -159262040
+      pngfind.com-pacman-sprite-png-4526402_6: 951343684
+      pngfind.com-pacman-sprite-png-4526402_22: 1304423585
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
