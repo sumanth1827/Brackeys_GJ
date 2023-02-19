@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class Hunter : MonoBehaviour
 {
@@ -19,6 +20,14 @@ public class Hunter : MonoBehaviour
     public GameObject gunBulletPrefab;
     public GameObject specialBulletPrefab;
 
+    public ParticleSystem muzzleFlash;
+    public Transform shootingPoint;
+
+    public AudioSource shootingSource;
+    public AudioSource walkingSource;
+
+    private float walkTime = 0;
+
     // special move references
     public int specialMoveTime = 5;
     public float specialFireRate = 5f;
@@ -26,6 +35,8 @@ public class Hunter : MonoBehaviour
 
     private float time = 0;
     private float specialFireTime = 0;
+
+    public bool canSpecialMove = true;
 
 
     // states
@@ -42,16 +53,32 @@ public class Hunter : MonoBehaviour
     public Transform button;
 
     public LayerMask tap;
+
+    private Animator anim;
     private void Start()
     {
         hunterRb = GetComponent<Rigidbody2D>();
         instance = this;
+        anim = GetComponentInChildren<Animator>();
+
+        shootingSource = GetComponent<AudioSource>();
 
     }
 
     private void Update()
     {
-        
+
+        // for the camera shake;
+     
+
+        if(movement != Vector2.zero)
+        {
+            anim.SetBool("walk", true);
+        }
+        else
+        {
+            anim.SetBool("walk", false);
+        }
         // getting the inputs
         GetInput();
 
@@ -76,6 +103,7 @@ public class Hunter : MonoBehaviour
             if (time < specialMoveTime)
             {
                 SpecialMoveState();
+                muzzleFlash.Play();
             }
 
             else
@@ -138,21 +166,19 @@ public class Hunter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
             HunterShooting();
 
-        if (Input.GetKeyDown("l") && normalState)
+        if (Input.GetKeyDown("l") && normalState && canSpecialMove)
         {
             normalState = false;
             specialMoveState = true;
+
+            ChiUpdate();
         }
     }
 
     // Code for  setting the player to face the direction of the mouse.
     private void MouseFace()
     {
-        if (normalState)
-        {
-            mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            transform.up = mousePos - (Vector2)transform.position;
-        }
+            transform.up = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)transform.position;
     }
 
     // Code which updates the movement of the hunter
@@ -160,12 +186,27 @@ public class Hunter : MonoBehaviour
     {
         // hunterRb.MovePosition((Vector2)this.transform.position + hunterSpeed * Time.fixedDeltaTime * movement.normalized);
         hunterRb.AddForce(movement.normalized * hunterSpeed* Time.fixedDeltaTime);
+
+        if(movement.magnitude >0)
+        {
+            walkTime += Time.fixedDeltaTime;
+
+            if (walkTime > 0.2f)
+            {
+                walkTime = 0;
+                walkingSource.Play();
+            }
+        }
+        
     }
 
     // Code which makes the hunter shoot normal bullets
     private void HunterShooting()
     {
-        GameObject bulletObject = Instantiate(gunBulletPrefab, transform.position, Quaternion.identity);
+        muzzleFlash.Play();
+        shootingSource.Play();
+        //CameraShaker.Instance.ShakeOnce(4f, 2f, 0.1f, 0.1f);
+        GameObject bulletObject = Instantiate(gunBulletPrefab, shootingPoint.position, Quaternion.identity);
     }
 
     // Code to invoke the special move of the hunter
@@ -174,10 +215,16 @@ public class Hunter : MonoBehaviour
         specialFireTime += Time.deltaTime;
         if (specialFireTime > 1 / specialFireRate)
         {
-            GameObject specialBulletObject = Instantiate(specialBulletPrefab, transform.position, Quaternion.identity);
+            shootingSource.Play();
+            GameObject specialBulletObject = Instantiate(specialBulletPrefab, shootingPoint.position, Quaternion.identity);
             specialFireTime = 0;
         }
 
-        transform.Rotate(new Vector3(0f, 0f, specialRotateSpeed * Time.deltaTime));
+        //transform.Rotate(new Vector3(0f, 0f, specialRotateSpeed * Time.deltaTime));
+    }
+
+    private void ChiUpdate()
+    {
+        PlayerChi.instance.chiVal = 0;
     }
 }
