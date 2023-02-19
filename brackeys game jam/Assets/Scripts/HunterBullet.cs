@@ -42,6 +42,7 @@ public class HunterBullet : MonoBehaviour
         if (collision.tag == "enemy")
         {
             collision.gameObject.GetComponent<health>().damage();
+
             Destroy(gameObject);
         }
 

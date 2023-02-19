@@ -15,8 +15,6 @@ public class enemybullet : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         dir = player.position - transform.position;
         dir.Normalize();
-        
-
 
     }
     private void FixedUpdate()
@@ -27,7 +25,7 @@ public class enemybullet : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            collision.gameObject.GetComponent<Hunter>().health -= 20;
+            collision.gameObject.GetComponent<PlayerHealth>().health -= 10;
         }
 
     }
