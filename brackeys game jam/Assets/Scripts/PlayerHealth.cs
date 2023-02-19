@@ -21,6 +21,6 @@ public class PlayerHealth : MonoBehaviour
 
     private void FixedUpdate()
     {
-        healthSlider.value = health / totalHealth;
+        healthSlider.value = Hunter.instance.health / totalHealth;
     }
 }

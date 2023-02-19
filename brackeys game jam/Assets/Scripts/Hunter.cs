@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using EZCameraShake;
+using UnityEngine.SceneManagement;
 
 public class Hunter : MonoBehaviour
 {
@@ -43,6 +44,10 @@ public class Hunter : MonoBehaviour
     private bool normalState = true;
     private bool specialMoveState = false;
 
+    public GameObject deathText;
+
+    public GameObject black;
+
     public static Hunter instance;
 
     //health
@@ -54,7 +59,17 @@ public class Hunter : MonoBehaviour
 
     public LayerMask tap;
 
+    public GameObject dogPanel;
+
     private Animator anim;
+
+    private float myTime = 0;
+    private float fadeBlackTime = 5f;
+
+    bool canEnd = false;
+
+    private bool canFade = true;
+    float balpha = 1;
     private void Start()
     {
         hunterRb = GetComponent<Rigidbody2D>();
@@ -63,13 +78,28 @@ public class Hunter : MonoBehaviour
 
         shootingSource = GetComponent<AudioSource>();
 
+        deathText.SetActive(false);
+
     }
 
     private void Update()
     {
-
         // for the camera shake;
-     
+
+        if(canFade)
+        {
+            myTime += Time.deltaTime;
+
+            balpha = Mathf.Lerp(1,0,myTime/fadeBlackTime);
+            
+            black.GetComponent<CanvasGroup>().alpha = balpha;
+
+            if(balpha == 0)
+            {
+                canFade = false;
+                myTime = 0f;
+            }
+        }
 
         if(movement != Vector2.zero)
         {
@@ -91,8 +121,32 @@ public class Hunter : MonoBehaviour
         if (health <= 0)
         {
             //Destroy(gameObject);
-            Debug.Log("dead");
+            StartCoroutine(StartSceneAgain());
         }
+
+        IEnumerator StartSceneAgain()
+        {
+            dogPanel.SetActive(true);
+            deathText.SetActive(true);
+            yield return new WaitForSecondsRealtime(5f);
+             if(health<=0)
+            {
+                myTime += Time.deltaTime;
+                if(myTime > fadeBlackTime)
+                {
+                    canEnd = true;
+                    myTime = 0;
+                }
+
+                balpha = Mathf.Lerp(0,1,myTime/fadeBlackTime);
+                black.GetComponent<CanvasGroup>().alpha = balpha;
+
+
+                if(canEnd)
+                    SceneManager.LoadScene(0);
+            }
+        }
+
 
         //check for door
         
@@ -134,8 +188,6 @@ public class Hunter : MonoBehaviour
     private void FixedUpdate()
     {
         HunterMovement();
-        
-
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -143,8 +195,8 @@ public class Hunter : MonoBehaviour
         {
             haskey = true;
             Destroy(collision.gameObject);
-
         }
+
 
     }
     
@@ -166,7 +218,7 @@ public class Hunter : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
             HunterShooting();
 
-        if (Input.GetKeyDown("l") && normalState && canSpecialMove)
+        if (Input.GetMouseButtonDown(1) && normalState && canSpecialMove)
         {
             normalState = false;
             specialMoveState = true;
@@ -215,6 +267,7 @@ public class Hunter : MonoBehaviour
         specialFireTime += Time.deltaTime;
         if (specialFireTime > 1 / specialFireRate)
         {
+            CameraShaker.Instance.ShakeOnce(4f, 4f, 0.2f, 0.2f);
             shootingSource.Play();
             GameObject specialBulletObject = Instantiate(specialBulletPrefab, shootingPoint.position, Quaternion.identity);
             specialFireTime = 0;

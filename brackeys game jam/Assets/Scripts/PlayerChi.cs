@@ -25,10 +25,13 @@ public class PlayerChi : MonoBehaviour
     {
         chiSlider.value = chiVal / totalChi;
 
-        if(chiVal <= 0)
+        if(chiVal < totalChi)
         {
             Hunter.instance.canSpecialMove = false;
             time += Time.deltaTime;
+
+            chiVal = Mathf.Lerp(0, totalChi, time / reloadChiTime);
+            
 
             if(time > reloadChiTime)
             {

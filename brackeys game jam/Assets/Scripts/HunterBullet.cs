@@ -42,7 +42,6 @@ public class HunterBullet : MonoBehaviour
         if (collision.tag == "enemy")
         {
             collision.gameObject.GetComponent<health>().damage();
-
             Destroy(gameObject);
         }
         if(collision.tag == "enemy1")
@@ -51,7 +50,12 @@ public class HunterBullet : MonoBehaviour
             Destroy(gameObject);
         }
 
+        if(collision.tag == "wall")
+        {
+            Destroy(gameObject);
+
     }
 
-
+    }
 }
+

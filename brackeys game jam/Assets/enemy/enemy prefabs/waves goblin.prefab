@@ -182,7 +182,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healths: 100
   damageamt: 30
-  bloodParticlesPrefab: {fileID: 7772758041326384608, guid: 0b5d565538f794858ab31fa8e5bfef51, type: 3}
+  bloodParticles: {fileID: 7772758041326384608, guid: 400db09422e858d41a65ae4fca07c1e1, type: 3}
 --- !u!1001 &256337252057574127
 PrefabInstance:
   m_ObjectHideFlags: 0

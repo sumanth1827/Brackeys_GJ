@@ -75,8 +75,11 @@ public class enemyai : MonoBehaviour
 
         if(SceneManager.GetActiveScene().name == "wizard scene")
             pos.GetComponent<Wizard>().health -= 10;
+
         else if (SceneManager.GetActiveScene().name == "MapScene")
+        {
             pos.GetComponent<Hunter>().health -= 10;
+        }
 
     }
     public void damager()
