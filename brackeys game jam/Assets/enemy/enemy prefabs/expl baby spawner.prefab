@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7695872608901069532}
   - component: {fileID: 7695872608901069535}
   - component: {fileID: 7695872608901069534}
-  - component: {fileID: 7695872608901069505}
   - component: {fileID: 7695872608901069530}
+  - component: {fileID: 4030951154551776436}
   m_Layer: 0
   m_Name: expl baby spawner
   m_TagString: enemy
@@ -135,27 +135,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7695872608901069505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7695872608901069504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c579109d672a7d4cb79880c2ba30e41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  checkradius: 25
-  attackradius: 13
-  speed: 3
-  player:
-    serializedVersion: 2
-    m_Bits: 64
-  bullet: {fileID: 5923884949115666060, guid: fb63dcb54001c4f4e865d5128f7176fc, type: 3}
-  health: 500
-  time: 3
 --- !u!114 &7695872608901069530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,3 +149,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healths: 7000
   damageamt: 50
+--- !u!114 &4030951154551776436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7695872608901069504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6189dec575e64f44195d9a1cf300205c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  checkradius: 25
+  attackradius: 13
+  speed: 3
+  player:
+    serializedVersion: 2
+    m_Bits: 64
+  bullet: {fileID: 5923884949115666060, guid: fb63dcb54001c4f4e865d5128f7176fc, type: 3}
+  time: 3

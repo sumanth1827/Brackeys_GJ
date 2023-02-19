@@ -16,8 +16,10 @@ public class health : MonoBehaviour
     {
         if (healths <= 0)
         {
+
             Destroy(gameObject);
         }
+
     }
     public void damage()
     {
