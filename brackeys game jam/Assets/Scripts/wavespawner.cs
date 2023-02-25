@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class wavespawner : MonoBehaviour
 {
-    [SerializeField] GameObject[] enemies;
+    [SerializeField] GameObject enemies;
     [SerializeField] LayerMask player;
     bool checkrd;
     bool spawned;
@@ -53,12 +53,12 @@ public class wavespawner : MonoBehaviour
                     checkrd = Physics2D.OverlapCircle(transform.position, checkradius, player);
                     if (checkrd)
                     {
-                        Instantiate(enemies[0], childloc.position, enemies[0].transform.rotation, parentenemy);
+                        Instantiate(enemies, childloc.position, enemies.transform.rotation, parentenemy);
 
                     }
                     else
                     {
-                        Instantiate(enemies[0], transform.position, enemies[0].transform.rotation, parentenemy);
+                        Instantiate(enemies, transform.position, enemies.transform.rotation, parentenemy);
                     }
 
                 }

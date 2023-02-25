@@ -35,6 +35,10 @@ public class HunterSpecialBullet : MonoBehaviour
             collision.gameObject.GetComponent<health>().damage();
             Destroy(gameObject);
         }
+        if (collision.tag == "wall")
+        {
+            Destroy(gameObject);
+        }
 
     }
 

@@ -160,7 +160,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -190,3 +190,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   healths: 100
   damageamt: 50
+  bloodParticles: {fileID: 7772758041326384608, guid: 400db09422e858d41a65ae4fca07c1e1, type: 3}

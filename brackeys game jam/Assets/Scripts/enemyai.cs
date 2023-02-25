@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class enemyai : MonoBehaviour
 {
@@ -11,10 +12,11 @@ public class enemyai : MonoBehaviour
     private bool checkrd, attackrd;
     private Vector2 move, dir;
     private Animator anim;
-    
+    private float hs;
     public bool key = false;
     public GameObject keys;
-    private health h;
+    private float h = 100f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,7 @@ public class enemyai : MonoBehaviour
         anim = GetComponent<Animator>();
         pos = GameObject.FindGameObjectWithTag("Player");
         rb2 = pos.GetComponent<Rigidbody2D>();
-        h = GetComponent<health>();
+        
 
         
     }
@@ -39,11 +41,15 @@ public class enemyai : MonoBehaviour
         move = dir;
         anim.SetFloat("X", dir.x);
         anim.SetFloat("Y", dir.y);
-        if(h.healths <=0)
+        
+        
+        if (h <=0f)
         {
+            
             if (key && keys != null)
             {
                 Instantiate(keys, transform.position, keys.transform.rotation);
+
             }
             Destroy(gameObject);
 
@@ -66,8 +72,20 @@ public class enemyai : MonoBehaviour
     public void forcer()
     {
         rb2.AddForce(move * knockback, ForceMode2D.Impulse);
-        pos.GetComponent<Hunter>().health -= 10;
-       
+
+        if(SceneManager.GetActiveScene().name == "wizard scene")
+            pos.GetComponent<Wizard>().health -= 10;
+
+        else if (SceneManager.GetActiveScene().name == "MapScene")
+        {
+            pos.GetComponent<Hunter>().health -= 10;
+        }
+
+    }
+    public void damager()
+    {
+        h -= 30f;
+        
     }
  
 }

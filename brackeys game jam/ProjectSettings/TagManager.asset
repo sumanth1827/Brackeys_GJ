@@ -8,6 +8,7 @@ TagManager:
   - enemy1
   - key
   - door
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -44,7 +45,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: box_hints
-    uniqueID: 4042757309
     locked: 0

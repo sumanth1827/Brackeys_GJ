@@ -53,25 +53,26 @@ public class enemyshootfinal : MonoBehaviour
         move = dir;
         float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
-        t2 += Time.deltaTime;
-        if(t2>15f)
-        {
-            bigmama = false;
-        }
-        if(t2>30f)
-        {
-            bigmama = true;
-            t2 = 0f;
-        }
+
         if (attackrd)
         {
+            t2 += Time.deltaTime;
+            if (t2 > 3f)
+            {
+                bigmama = false;
+            }
+            if (t2 > 50f)
+            {
+                bigmama = true;
+                t2 = 0f;
+            }
             rb.velocity = Vector2.zero;
             anim.SetBool("walk", false);
 
             if (bigmama)
             {
                 t += Time.deltaTime;
-                if (t > 3f)
+                if (t > 3f && t<5f)
                 {
                     Instantiate(bullet, transform.position, Quaternion.identity);
 

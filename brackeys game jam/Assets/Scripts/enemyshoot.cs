@@ -12,15 +12,21 @@ public class enemyshoot : MonoBehaviour
     private Vector2 move, dir;
     
     public GameObject bullet;
-    public float health = 100f;
+    
     public float time = 1;
     float t;
+
+    private Animator anim1,anim2;
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         pos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         t = time;
+
+            anim1 = GetComponentsInChildren<Animator>()[0];
+            anim2 = GetComponentsInChildren<Animator>()[1];
+
     }
 
     // Update is called once per frame
@@ -31,13 +37,19 @@ public class enemyshoot : MonoBehaviour
         dir = pos.position - transform.position;
         dir.Normalize();
         move = dir;
-        if(checkrd && !attackrd)
+        float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, rot_z );
+        if (checkrd && !attackrd)
         {
            // rb.MovePosition((Vector2)transform.position + (move * speed * Time.deltaTime));
         }
         if(attackrd)
         {
             rb.velocity = Vector2.zero;
+
+                anim1.SetBool("walking", false);
+                anim2.SetBool("walking", false);
+
             t += Time.deltaTime;
             if(t>time)
             {
@@ -46,17 +58,15 @@ public class enemyshoot : MonoBehaviour
             }
              
         }
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+
     }
     private void FixedUpdate()
     {
         if (checkrd && !attackrd)
         {
             rb.MovePosition((Vector2)transform.position + (move * speed * Time.fixedDeltaTime));
-            
+            anim1.SetBool("walking", true);
+            anim2.SetBool("walking", true);
 
         }
     }

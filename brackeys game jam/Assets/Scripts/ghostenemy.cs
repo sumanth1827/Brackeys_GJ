@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class ghostenemy : MonoBehaviour
 {
@@ -90,10 +89,7 @@ public class ghostenemy : MonoBehaviour
             {
                 rb.velocity = Vector2.zero;
                 rb2.AddForce(move * knockback, ForceMode2D.Impulse);
-                if (SceneManager.GetActiveScene().name == "wizard scene")
-                    pos.GetComponent<Wizard>().health -= 3;
-                else if (SceneManager.GetActiveScene().name == "MapScene")
-                    pos.GetComponent<Hunter>().health -= 2;
+                pos.GetComponent<Hunter>().health -= 1f;
                 attack2 = true;
                 speed = actspeed;
                 collide.enabled = false;
