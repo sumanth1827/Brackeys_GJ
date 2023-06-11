@@ -170,7 +170,7 @@ public class Hunter : MonoBehaviour
 
         if (Input.GetKeyDown("e"))
         {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)this.gameObject.transform.position, 4f, tap);
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition) - (Vector2)this.gameObject.transform.position, 8f, tap);
             if (hit.collider != null)
             {
                 if (hit.collider.gameObject.GetComponent<puzzlebutton>().zero == 0)

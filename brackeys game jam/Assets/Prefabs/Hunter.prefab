@@ -339,12 +339,15 @@ MonoBehaviour:
   specialFireRate: 20
   specialRotateSpeed: 500
   canSpecialMove: 1
+  deathText: {fileID: 0}
+  black: {fileID: 0}
   health: 100
   haskey: 0
   button: {fileID: 0}
   tap:
     serializedVersion: 2
     m_Bits: 8
+  dogPanel: {fileID: 0}
 --- !u!50 &4921610947600559656
 Rigidbody2D:
   serializedVersion: 4

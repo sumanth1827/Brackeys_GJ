@@ -31,10 +31,7 @@ public class door : MonoBehaviour
     }
     void wavestarter()
     {
-        Invoke("actualstarter", 4);
-    }
-    private void actualstarter()
-    {
         sp1.SetActive(true);
     }
+
 }

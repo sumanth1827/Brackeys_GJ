@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float health = 100;
-    private float totalHealth = 100;
+    public float health = 400;
+    public float totalHealth = 400;
 
     // references
 

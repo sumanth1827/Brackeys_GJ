@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class enemyai : MonoBehaviour
 {
     public float checkradius, attackradius, speed, knockback;
-    public LayerMask player;
+    public LayerMask player, p_w;
     private GameObject pos;
     private Rigidbody2D rb,rb2;
     private bool checkrd, attackrd;
@@ -16,6 +16,7 @@ public class enemyai : MonoBehaviour
     public bool key = false;
     public GameObject keys;
     private float h = 100f;
+    private bool ray_wall = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +33,35 @@ public class enemyai : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        Debug.Log(pos.transform.position);
         checkrd = Physics2D.OverlapCircle(transform.position, checkradius, player);
         attackrd = Physics2D.OverlapCircle(transform.position, attackradius, player);
-        anim.SetBool("Start", checkrd);
-        anim.SetBool("Attack", attackrd);
         dir = pos.transform.position - transform.position;
         dir.Normalize();
         move = dir;
+        if (checkrd)
+        {
+            
+            RaycastHit2D hit  = Physics2D.Raycast(transform.position, move, checkradius,p_w);
+            Debug.DrawRay(transform.position, move, Color.green);
+              
+            if (hit.collider.tag == "Player")
+            {
+                
+                ray_wall = true;
+            }
+            else if(hit.collider.tag != "Player")
+            {
+                ray_wall=false;
+            }
+        }
+        else
+        {
+            ray_wall = false;
+        }
+        anim.SetBool("Start", ray_wall);
+        anim.SetBool("Attack", attackrd);
+
         anim.SetFloat("X", dir.x);
         anim.SetFloat("Y", dir.y);
         
@@ -58,7 +81,7 @@ public class enemyai : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (checkrd && !attackrd)
+        if (ray_wall && !attackrd)
         {
             rb.MovePosition((Vector2)transform.position + (move * speed * Time.fixedDeltaTime));
 

@@ -52,6 +52,11 @@ public class enemy3 : MonoBehaviour
     public void explosion()
     {
         rb2.AddForce(power * move, ForceMode2D.Impulse);
+        if(attackrd)
+        {
+            pos.GetComponent<Hunter>().health -= 3f;
+        }
+        
         Destroy(gameObject);
     }
 
