@@ -5,7 +5,7 @@ using UnityEngine;
 public class enemyshoot : MonoBehaviour
 {
     public float checkradius, attackradius, speed;
-    public LayerMask player;
+    public LayerMask player, p_w;
     private Transform pos;
     private Rigidbody2D rb;
     private bool checkrd, attackrd;
@@ -15,6 +15,7 @@ public class enemyshoot : MonoBehaviour
     
     public float time = 1;
     float t;
+    private bool ray_wall = false;
 
     private Animator anim1,anim2;
     // Start is called before the first frame update
@@ -37,8 +38,29 @@ public class enemyshoot : MonoBehaviour
         dir = pos.position - transform.position;
         dir.Normalize();
         move = dir;
+
         float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot_z );
+        if (checkrd)
+        {
+
+            RaycastHit2D hit = Physics2D.Raycast(transform.position, move, checkradius, p_w);
+
+
+            if (hit.collider.tag == "Player")
+            {
+
+                ray_wall = true;
+            }
+            else if (hit.collider.tag != "Player")
+            {
+                ray_wall = false;
+            }
+        }
+        else
+        {
+            ray_wall = false;
+        }
         if (checkrd && !attackrd)
         {
            // rb.MovePosition((Vector2)transform.position + (move * speed * Time.deltaTime));
@@ -62,7 +84,7 @@ public class enemyshoot : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        if (checkrd && !attackrd)
+        if (ray_wall && !attackrd)
         {
             rb.MovePosition((Vector2)transform.position + (move * speed * Time.fixedDeltaTime));
             anim1.SetBool("walking", true);

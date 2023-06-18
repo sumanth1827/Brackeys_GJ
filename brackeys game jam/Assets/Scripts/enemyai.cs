@@ -43,7 +43,7 @@ public class enemyai : MonoBehaviour
         {
             
             RaycastHit2D hit  = Physics2D.Raycast(transform.position, move, checkradius,p_w);
-            Debug.DrawRay(transform.position, move, Color.green);
+            
               
             if (hit.collider.tag == "Player")
             {
