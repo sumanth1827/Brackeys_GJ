@@ -20,13 +20,12 @@ public class newwavespawner : MonoBehaviour
         {
 
 
-            if (enemy[i].transform.childCount == 0)
+            if (enemy[i].transform.childCount == 0 && enemy[i].tag != "enemy")
             {
-                StopCoroutine(wavestarter());
-                if(enemy[i].tag != "enemy")
-                {
+                //StopCoroutine(wavestarter());
+
                     Destroy(enemy[i]);
-                }
+                
                 
                 i++;
                 StartCoroutine(wavestarter());
@@ -48,6 +47,11 @@ public class newwavespawner : MonoBehaviour
             {
                 yield return new WaitForSeconds(4f);
                 enemy[i].SetActive(true);
+                if (enemy[i].tag == "enemy")
+                {
+                    i++;
+                    enemy[i].SetActive(true);
+                }
 
             }
         }
