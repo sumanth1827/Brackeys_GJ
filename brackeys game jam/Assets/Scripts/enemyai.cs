@@ -33,7 +33,7 @@ public class enemyai : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(pos.transform.position);
+        
         checkrd = Physics2D.OverlapCircle(transform.position, checkradius, player);
         attackrd = Physics2D.OverlapCircle(transform.position, attackradius, player);
         dir = pos.transform.position - transform.position;

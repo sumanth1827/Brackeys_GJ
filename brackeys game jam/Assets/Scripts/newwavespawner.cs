@@ -38,19 +38,25 @@ public class newwavespawner : MonoBehaviour
         if (i < enemy.Length)
         {
 
-
+            if (enemy[i].tag != "enemy")
+            {
+                doorafterwave.instance.total_child = enemy[i].transform.childCount;
+            }
             if (i == 0)
             {
                 enemy[i].SetActive(true);
+                
             }
             else
             {
                 yield return new WaitForSeconds(4f);
                 enemy[i].SetActive(true);
+                
                 if (enemy[i].tag == "enemy")
                 {
                     i++;
                     enemy[i].SetActive(true);
+                    doorafterwave.instance.total_child = 2f;
                 }
 
             }

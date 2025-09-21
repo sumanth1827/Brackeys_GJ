@@ -5,20 +5,21 @@ using UnityEngine;
 public class enemyshootfinal : MonoBehaviour
 {
     // Start is called before the first frame update
-    public float checkradius, attackradius, speed;
+    public float checkradius, attackradius, attackradius2, speed, knockback = 1000f;
     public LayerMask player;
     private Transform pos;
-    private Rigidbody2D rb;
-    private bool checkrd, attackrd;
+    private Rigidbody2D rb,rb2;
+    private bool checkrd, attackrd,attackrd2;
     private Vector2 move, dir;
+    private float actspeed;
 
-    public GameObject bullet, enemy,enemy2;
+    public GameObject bullet;
     private Animator anim;
     public float time = 1;
     float t,t2;
     private health h;
     [SerializeField] Animator anims;
-    bool bigmama = true;
+    bool bigmama = true,runmama=false;
 
 
     // Start is called before the first frame update
@@ -26,15 +27,18 @@ public class enemyshootfinal : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         pos = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+        rb2 = pos.GetComponent<Rigidbody2D>();
         t = time;
         anim = GetComponent<Animator>();
         h = GetComponent<health>();
-
+        actspeed = speed;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Debug.Log("bigmama :" + bigmama);
+        Debug.Log("runmama :" + runmama);
         if (h.healths < 5000f)
         {
             anim.SetBool("damage", true);
@@ -48,44 +52,66 @@ public class enemyshootfinal : MonoBehaviour
 
         checkrd = Physics2D.OverlapCircle(transform.position, checkradius, player);
         attackrd = Physics2D.OverlapCircle(transform.position, attackradius, player);
+        attackrd2 = Physics2D.OverlapCircle(transform.position, attackradius2, player);
         dir = pos.position - transform.position;
         dir.Normalize();
         move = dir;
         float rot_z = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot_z - 90);
 
-        if (attackrd)
+        if(bigmama && attackrd)
         {
-            t2 += Time.deltaTime;
-            if (t2 > 3f)
-            {
-                bigmama = false;
-            }
-            if (t2 > 50f)
-            {
-                bigmama = true;
-                t2 = 0f;
-            }
+            runmama = false;
+            StartCoroutine(bigboss());
             rb.velocity = Vector2.zero;
             anim.SetBool("walk", false);
-
-            if (bigmama)
-            {
-                t += Time.deltaTime;
-                if (t > 3f && t<5f)
-                {
-                    Instantiate(bullet, transform.position, Quaternion.identity);
-
-                }
-                if (t > 6f)
-                {
-                    Instantiate(enemy, transform.position, Quaternion.identity);
-                    t = 0;
-                }
-            }
+            Instantiate(bullet, transform.position, Quaternion.identity);
 
 
         }
+        if(runmama && attackrd)
+        {
+            bigmama = false;
+
+            speed += 1f;
+            if(!attackrd2)
+            {
+                rb.MovePosition((Vector2)transform.position + (move * speed * Time.fixedDeltaTime));
+            }
+            
+            if (attackrd2)
+            {
+                rb.velocity = Vector2.zero;
+                
+                anim.SetBool("walk", false);
+                rb2.AddForce(move * knockback, ForceMode2D.Impulse);
+                pos.GetComponent<Hunter>().health -= 40f;
+                runmama = false;
+                StartCoroutine(bigbossrun());
+                
+                
+            }
+
+        }
+
+
+
+    }
+    IEnumerator bigboss()
+    {
+        yield return new WaitForSeconds(2f);
+        bigmama = false;
+        runmama = true;
+
+    }
+    IEnumerator bigbossrun()
+    {
+        speed = actspeed;
+        
+        yield return new WaitForSeconds(5f);
+        bigmama = true;
+        
+
 
     }
     private void FixedUpdate()
@@ -98,5 +124,6 @@ public class enemyshootfinal : MonoBehaviour
 
         }
     }
+
 
 }

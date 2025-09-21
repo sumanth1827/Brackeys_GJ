@@ -7,13 +7,14 @@ public class doorafterwave : MonoBehaviour
 {
     [SerializeField] Animator anim;
     [SerializeField] Slider wavebar;
-    
-    
+    public float total_child;
+    public static doorafterwave instance;
     // Start is called before the first frame update
     void Start()
     {
 
         wavebar.gameObject.SetActive(true);
+        instance = this;
         
     }
 
@@ -32,13 +33,13 @@ public class doorafterwave : MonoBehaviour
             
 
         }
-        int sum = 0;
+        float sum = 0f;
         foreach (int item in kidcount)
         {
             sum += item;
         }
         
-        wavebar.value = sum;
+        wavebar.value = (float)(sum/total_child);
 
 
         if (transform.childCount == 0)
